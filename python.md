@@ -26,3 +26,13 @@ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 ```bash
 python -m pip install Django
 ```
+
+## Flask
+
+[flask](https://flask.palletsprojects.com/)
+
+```bash
+cd test-flask
+python3 -m venv .venv
+pip install Flask
+```
