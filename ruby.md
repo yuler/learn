@@ -20,3 +20,7 @@ gem sources --add https://gems.ruby-china.com/
 ```bash
 gem install rails
 ```
+
+### Resources
+
+- <https://github.com/madeindjs/api_on_rails>
