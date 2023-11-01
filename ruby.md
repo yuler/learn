@@ -1,5 +1,11 @@
 # ruby
 
+> <https://www.ruby-lang.org/>
+
+## Playground
+
+- [try Ruby in browser](https://try.ruby-lang.org/)
+
 ## Install ruby
 
 Use [`rbenv`](https://github.com/rbenv/rbenv)
