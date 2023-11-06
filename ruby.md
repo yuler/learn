@@ -43,5 +43,5 @@ gem install rails
 
 - <https://github.com/madeindjs/api_on_rails>
 - Programming Ruby
-- Rails 敏捷开发
+- Agile Web Development with Rails 7
 - Ruby 元编程
