@@ -1,6 +1,8 @@
 # go
 
-> <https://go.dev/>
+<https://go.dev/>
+
+> Don't communicate by sharing memory, share memory by communicating.
 
 ## Playground
 
@@ -15,4 +17,10 @@ brew install go
 ## Basic
 
 - [tutorial](https://go.dev/doc/tutorial/)
+- [Go by Example](https://gobyexample.com/)
 - [Effective Go](https://go.dev/doc/effective_go)
+
+## Resources
+
+- <https://github.com/golang-standards/project-layout>
+- <https://github.com/astaxie/build-web-application-with-golang>
