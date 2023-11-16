@@ -41,7 +41,10 @@ gem install rails
 
 ### Resources
 
-- <https://github.com/madeindjs/api_on_rails>
+- <https://rails.rubystyle.guide/>
+
+## Books
+
 - Programming Ruby
 - Agile Web Development with Rails 7
 - Ruby 元编程
