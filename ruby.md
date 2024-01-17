@@ -37,6 +37,7 @@ gem sources --add https://gems.ruby-china.com/
 
 ```bash
 gem install rails
+gem install rufo rubocop
 ```
 
 ### Resources
