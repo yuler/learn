@@ -43,6 +43,10 @@ gem install rufo rubocop
 ### Resources
 
 - <https://rails.rubystyle.guide/>
+- <https://thoughtbot.com/upcase>
+- <https://gorails.com/>
+- <https://www.driftingruby.com/>
+- <https://www.theodinproject.com/>
 
 ## Books
 

@@ -117,3 +117,59 @@ html {
 ### Debugging in the Browser
 
 `Command + Option + I` 打开调试工具
+
+## Render Logic I
+
+### Built-in Declarations and Inheritance
+
+> 每个浏览器都有自己的 `user-agent stylesheet` 样式表，其中包了一些基础样式。
+
+- 如果你用过 `CSS reset`，他的作用就是 “扁平化” 不同浏览器的 `user-agent stylesheet`，确保每个浏览器都使用相同核心样式
+- [full stylesheet for the Chrome browser](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/core/html/resources/html.css)
+
+#### Inheritance
+
+> 大多数可继承的属性与排版有关，例如: `color`, `font-size`, `text-shadow`, 其他 [list of inheritable properties](https://www.sitepoint.com/css-inheritance-introduction/#list-css-properties-inherit)
+
+#### Forcing inheritance
+
+> 有时候我们希望一个属性集成, 例如: 链接的颜色就是一个很好的例子
+
+`a` 标签包含一些 "built-in" 样式
+
+```css
+a {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+```
+
+```css
+a {
+  color: inherit;
+}
+```
+
+### The Cascade
+
+> `cascade algorithm`: CSS 语言包含许多不同的选择器，每个选择器都有相对的权重
+
+#### Similarities with JS merging
+
+> 级联算法是想这样工作的
+
+```js
+const appliedStyles = {
+  ...inheritedStyles,
+  ...tagStyles,
+  ...classStyles,
+  ...idStyles,
+  ...inlineStyles,
+  ...importantStyles
+}
+```
+
+> 在实际应用中应该避免复杂的样式级联, 更多级联相关的信息可以查看[lovely interactive article by Amelia Wattenberger](https://2019.wattenberger.com/blog/css-cascade)
+
+### Directions
